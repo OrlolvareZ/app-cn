@@ -334,3 +334,6 @@
 
 
 <router-outlet></router-outlet>
+<div *ngFor="let user of users">
+    <p>Mi nombre es {{user.nombre}}, y tengo {{user.edad}}</p>
+</div>
